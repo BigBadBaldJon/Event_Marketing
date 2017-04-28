@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_mktevt_attendee">
+    <x_snc_mktevt_attendee action="INSERT_OR_UPDATE">
+        <email>ray.bourque@bostonbruins.com</email>
+        <first_name>Ray</first_name>
+        <last_name>Bouque</last_name>
+        <marketing_event display_value="London LUG">abbb202a13d95a00d70530f82244b01c</marketing_event>
+        <phone>777777777777</phone>
+        <sys_class_name>x_snc_mktevt_attendee</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-02-04 21:21:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc42d33213d19a00d70530f82244b016</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ray.bourque@bostonbruins.com</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_snc_mktevt">db5fe3ce13555a00d70530f82244b06f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">db5fe3ce13555a00d70530f82244b06f</sys_scope>
+        <sys_update_name>x_snc_mktevt_attendee_fc42d33213d19a00d70530f82244b016</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-02-04 21:21:41</sys_updated_on>
+    </x_snc_mktevt_attendee>
+</record_update>

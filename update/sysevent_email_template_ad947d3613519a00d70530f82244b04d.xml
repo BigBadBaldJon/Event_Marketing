@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_snc_mktevt_marketing_event</collection>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text><![CDATA[Dear ${first_name},
+
+This is to confirm that you are registered for ${marketing_event.name}.  We look forward to seeing you at the  event.  If you have any questions, please contact the event team a 1-888-555-1212.
+
+Thank you!
+]]></message_text>
+        <name>Marketing Event Registration</name>
+        <sms_alternate/>
+        <subject>Thank you for registering for ${marketing_event.name}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-02-04 14:41:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ad947d3613519a00d70530f82244b04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Marketing Event Registration</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_snc_mktevt">db5fe3ce13555a00d70530f82244b06f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">db5fe3ce13555a00d70530f82244b06f</sys_scope>
+        <sys_update_name>sysevent_email_template_ad947d3613519a00d70530f82244b04d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-02-04 14:41:59</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

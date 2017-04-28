@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>last_name</field>
+        <global>true</global>
+        <messages/>
+        <name>Auto update Email field</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+  var saveAndClose = true;
+ //Type appropriate comment here, and begin script below
+ var usrEmail = g_form.getvalue('first_name') + '.' + g_form.getvalue('last_name') + '@BostonBruins';	g_form.setValue('email', usrEmail);
+ callback(saveAndClose); 
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-02-06 15:53:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>272a9823135d9a00d70530f82244b0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto update Email field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_snc_mktevt">db5fe3ce13555a00d70530f82244b06f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">db5fe3ce13555a00d70530f82244b06f</sys_scope>
+        <sys_update_name>sys_script_client_272a9823135d9a00d70530f82244b0de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-02-06 15:53:11</sys_updated_on>
+        <table>x_snc_mktevt_attendee</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
